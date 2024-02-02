@@ -16,3 +16,9 @@ function draw() {
   // Redraw
   requestAnimationFrame(draw);
 }
+
+// Define & Invoke a Function
+function displayGreeting() {
+  console.log("Hello");
+  console.log("This is a function");
+}
